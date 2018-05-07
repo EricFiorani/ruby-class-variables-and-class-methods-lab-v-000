@@ -27,7 +27,7 @@ class Song
     @@genres.uniq
   end
 
-  def slef.genre_count
+  def self.genre_count
     genre_count = {
       genre => genre_count
     }
