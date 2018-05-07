@@ -35,4 +35,11 @@ class Song
     end
     @@genre_count
   end
+
+  def self.artist_count
+    @@artists.each do |artist|
+      @@artist_count[artists] = @@artists.count(artists)
+    end
+    @@artist_count
+  end
 end
