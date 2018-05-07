@@ -28,6 +28,6 @@ class Song
   end
 
   def self.genre_count
-    @@genres.hash{|key, value|}
+    @@genres.hash{|key, value| key[value]}
   end
 end
