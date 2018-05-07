@@ -28,4 +28,8 @@ class Song
   end
 
   def genre_count
+    genre_count = {
+      "genre" => genre
+    }
+  end
 end
