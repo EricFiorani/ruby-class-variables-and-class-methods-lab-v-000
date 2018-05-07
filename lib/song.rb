@@ -18,6 +18,6 @@ class Song
   end
 
   def artists
-    @@artists = artists.uniq
+    @@artists
   end
 end
