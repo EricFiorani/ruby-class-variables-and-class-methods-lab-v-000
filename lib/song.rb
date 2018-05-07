@@ -21,5 +21,6 @@ class Song
 
   def artists
     @@artists
+    binding.pry
   end
 end
